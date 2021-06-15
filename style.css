@@ -33,6 +33,7 @@ header {
   align-items: center;
   padding: 0 10px;
   border-bottom: 1px solid seashell;
+  z-index: 1;
 }
 
 ul {
@@ -49,4 +50,21 @@ li {
 header img {
   height: 50px;
   width: auto;
+}
+
+/* Our Mission Hero */
+.our-mission {
+  margin: 69px 2rem 0;
+  height: 700px;
+  background-image: url('./assets/img-mission-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.our-mission div {
+  background-color: black;
+  width: 100%;
+  text-align: center;
 }
