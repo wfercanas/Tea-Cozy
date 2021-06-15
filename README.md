@@ -1,5 +1,5 @@
 # Tea-Cozy
-Difficulty: ⚪ Basic.
+Difficulty: ⚪ Very Easy.
 Brief: CSS Flexbox Layout project developed within the Codecademy Fullstack Engineer Path.
 
 ## Project URL
