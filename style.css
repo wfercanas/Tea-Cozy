@@ -54,8 +54,9 @@ header img {
 
 /* Our Mission Hero */
 .our-mission {
-  margin: 69px 2rem 0;
+  margin: 69px auto;
   height: 700px;
+  max-width: 1200px;
   background-image: url('./assets/img-mission-background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -67,4 +68,32 @@ header img {
   background-color: black;
   width: 100%;
   text-align: center;
+}
+
+/* Tea of the Month Section */
+.month-tea {
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.month-tea__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.month-tea__card {
+  width: 300px;
+  margin: 0 0.5rem;
+}
+
+.month-tea__card img {
+  width: inherit;
+  height: auto;
+}
+
+.month-tea__card p {
+  margin-top: 0.5rem;
+  font-weight: bold;
 }
