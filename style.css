@@ -14,7 +14,6 @@ h5,
 h6,
 p,
 li {
-  font-size: 1rem;
   color: seashell;
   font-family: Helvetica, sans-serif;
   opacity: 0.9;
@@ -45,6 +44,10 @@ ul {
 li {
   text-decoration: underline;
   margin: 0 1rem;
+}
+
+li:hover {
+  cursor: pointer;
 }
 
 header img {
@@ -128,4 +131,10 @@ header img {
 .contact {
   text-align: center;
   height: 200px;
+}
+
+/* Footer */
+footer {
+  margin-left: 20px;
+  font-weight: bold;
 }
