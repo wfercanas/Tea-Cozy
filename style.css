@@ -1,0 +1,52 @@
+html {
+  font-size: 22px;
+}
+
+body {
+  background-color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+  font-size: 1rem;
+  color: seashell;
+  font-family: Helvetica, sans-serif;
+  opacity: 0.9;
+}
+
+/* Header */
+header {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 69px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  border-bottom: 1px solid seashell;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+li {
+  text-decoration: underline;
+  margin: 0 1rem;
+}
+
+header img {
+  height: 50px;
+  width: auto;
+}
