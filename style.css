@@ -97,3 +97,29 @@ header img {
   margin-top: 0.5rem;
   font-weight: bold;
 }
+
+/* Locations */
+.locations {
+  text-align: center;
+  margin: 3rem auto 15px;
+  max-width: 1200px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('./assets/img-locations-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.locations__container {
+  display: flex;
+  justify-content: center;
+}
+
+.locations__card {
+  width: 300px;
+  background-color: black;
+  margin: 0 20px;
+}
